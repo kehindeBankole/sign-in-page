@@ -1,0 +1,94 @@
+body{
+    background: linear-gradient(to left , rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('How-to-Choose-a-Graphic-Design-Agency1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    
+    }
+    .bg{
+       background-color:  #181818;
+       color:#ccccbb;
+    }
+    input{
+        background-color: #181818;
+        border-radius:2px;
+    }
+    .w3-margin-left{
+        margin-left:80px;
+    }
+    a{
+        text-decoration: none;
+    }
+     a:hover{
+         color:orange;
+         text-decoration: underline;
+     }   
+     span.or {
+       color: #ccccbb;
+        position: relative;
+        display: inline-block;
+        margin: 50px 100px;
+        width:100px;
+    }
+     span.or:before {
+        content: "";
+        border: 1px solid white;
+        position: absolute;
+        width:50%;
+        top: 8px;
+        left: -25px;
+    }
+    
+    span.or:after {
+        content: "";
+        border: 1px solid white;
+        position: absolute;
+        width:50%;
+        top: 8px;
+        right: -25px;
+    }
+    label,button{
+        font-weight: bold;
+        color:white;
+    }
+    html {
+      overflow:  auto;
+      background-attachment: fixed;
+    }
+    ::-webkit-scrollbar {
+        width: 0px;
+        background: transparent; /* make scrollbar transparent */
+    }
+    #copy{
+        font-size:12px;
+        font-weight: bolder;
+    }
+    #pri{
+        font-size:12px;
+        font-weight: bolder;
+    }
+    #create{
+        font-size:45px;
+        margin-top:230px;
+        font-weight:200;
+    }
+    #togeda{
+        font-size:50px;
+        font-weight:bolder;
+    }
+    #trial{
+        width:500px;
+        color:white;
+        transition: 1s;
+        background-color: transparent;
+        border:1px solid white;
+    }
+    #trial:hover{
+        color:orange;
+        border-color: orange;
+        cursor: pointer;
+    }
+    .w3-border:hover{
+        border-color: orange;
+    }
